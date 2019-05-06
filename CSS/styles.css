@@ -1,0 +1,54 @@
+/* FUENTES */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* Cabecera */
+.cabecera {
+    background-image: url(../IMG/foto-cabecera-puente.jpg);    
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+}
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contenido-cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Contenido de perfil */
+.contenido-body {
+    background-color: rgb(180, 201, 228);
+}
+.mi-perfil {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.busca-amigos {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.contenido-perfil {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Pie de página */
+.pie {
+    background-color: rgb(152, 197, 182);
+    font-size: 12px;
+    text-align: center; 
+    font-style: italic;
+}
